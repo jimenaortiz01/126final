@@ -6,20 +6,21 @@
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 header{
     background-color: #f02d3a;
-    display: flex;
-    flex-direction: column;
     width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 h1{
     color: #fffbeb;
     font-family: "Maiden Orange", sans-serif;
     text-align: center;
-    justify-content: center;
 }
 
 nav a {
@@ -27,10 +28,26 @@ nav a {
     text-decoration: none;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+nav ul {
     list-style: none;
     gap: 15px;
+    align-items: flex-end;
+    display: flex;
+}
+
+main {
+    background: #fffbeb;
+    width: 100%;
+    height: 100vh;
+} 
+
+footer {
+    background-color: #f02d3a;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: "Maiden Orange", sans-serif;
+    color: #fffbeb;
 }
