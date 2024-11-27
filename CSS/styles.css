@@ -56,7 +56,6 @@ nav ul {
 main {
     background: #fffbeb;
     width: 100%;
-    height: 100vh;
 }
 
 .mini-container {
@@ -75,4 +74,13 @@ footer {
     justify-content: center;
     font-family: "Maiden Orange", sans-serif;
     color: #fffbeb;
+    position: relative;
+}
+
+.st_patrick {
+    width: 500px;
+    height: 300px;
+    border-style: double;
+    border-width: 10px;
+    margin: 7px;
 }
