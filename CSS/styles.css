@@ -106,6 +106,28 @@ main {
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
 }
 
+.about{
+    gap: 15px;
+    margin: 10px;
+    background-color: #022050;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.owner {
+    float: left;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 300px;
+    height: auto;
+}
+
+.about_text {
+    color: #fffbeb;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 10px;
+}
+
 footer {
     background-color: #f02d3a;
     width: 100%;
