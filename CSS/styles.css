@@ -19,38 +19,37 @@ h1{
     font-family: "Maiden Orange", sans-serif;
     justify-content: center;
     display: flex;
+    font-size: 50px;
 }
 
 h2{
-    color: black;
+    color: #022050;
     font-family: "Maiden Orange", sans-serif;
     display: flex;
     justify-content: center;
     padding: 20px;
-}
-
-nav{
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav a {
-    color: #fffbeb;
-    text-decoration: none;
-}
-
-nav ul {
-    list-style: none;
-    gap: 15px;
-    align-items: flex-end;
-    display: flex;
+    font-size: 25px;
 }
 
 .navbar {
     display: flex;
     flex-direction: column;
     list-style: none;
+    gap: 15px;
+    align-items: flex-end;
     padding: 10px;
+}
+
+.navbar a {
+    color: #fffbeb;
+    text-decoration: none;
+    font-family: "Maiden Orange", sans-serif;
+    font-size: 21px;
+}
+
+.navbar a:hover, .navbar a:focus {
+    text-decoration: underline;
+    text-decoration-color: #fffbeb;
 }
 
 main {
@@ -58,8 +57,50 @@ main {
     width: 100%;
 }
 
+.logo {
+    height: 130px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rectangle {
+    background-color: #022050;
+    width: 50%;
+    padding: 12px;
+    margin: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.slogan {
+    color: #fffbeb;
+    font-family: "Spline Sans Mono", sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+#hours {
+    text-decoration: underline;
+    font-size: 30px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+#daysandtimes {
+    font-family: "Spline Sans Mono", sans-serif;
+    color: #022050;
+    margin: 10px;
+    line-height: 40px;
+}
+
 .mini-container {
-    background-color: whitesmoke;
+    background-color: #fcf9f0;
     padding: 5px;
     margin: 20px;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
