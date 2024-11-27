@@ -12,15 +12,18 @@
 header{
     background-color: #f02d3a;
     width: 100%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
 
 h1{
     color: #fffbeb;
     font-family: "Maiden Orange", sans-serif;
-    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav a {
@@ -33,6 +36,13 @@ nav ul {
     gap: 15px;
     align-items: flex-end;
     display: flex;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px;
 }
 
 main {
