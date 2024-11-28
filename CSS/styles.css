@@ -194,6 +194,43 @@ footer {
 }
 
 .text-box {
-    width: 400px;
-    margin-left: 10px;
+    gap: 15px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.bingo-text {
+    color: black;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 10px;
+}
+
+.music-text {
+    color: black;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 10px;
+}
+
+.nye-text {
+    color: black;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 10px;
+}
+
+.shamrock {
+    color: black;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 10px;
+}
+
+.german-holiday {
+    color: black;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 10px;
+}
+
+.kid-toys {
+    color: black;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 10px;
 }
