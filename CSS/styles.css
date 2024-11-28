@@ -104,6 +104,8 @@ main {
     padding: 5px;
     margin: 20px;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+    clear: both;
 }
 
 .about{
@@ -161,6 +163,7 @@ footer {
     height: 200px;
     border-style: double;
     border-width: 10px;
+    float: right;
     margin: 7px;
 }
 
@@ -170,6 +173,7 @@ footer {
     border-style: double;
     border-width: 10px;
     margin: 7px;
+    float: right;
 }
 
 .toys {
