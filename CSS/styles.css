@@ -254,6 +254,7 @@ footer {
     gap: 15px;
     margin: 10px;
     overflow: hidden;
+    display: flex;
 }
 
 .bingo-text {
