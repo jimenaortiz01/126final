@@ -17,8 +17,7 @@ header{
 h1{
     color: #fffbeb;
     font-family: "Maiden Orange", sans-serif;
-    justify-content: center;
-    display: flex;
+    text-align: center;
     font-size: 50px;
 }
 
@@ -28,6 +27,7 @@ h2{
     display: flex;
     justify-content: center;
     padding: 20px;
+    padding-bottom: 5px;
     font-size: 25px;
 }
 
@@ -99,35 +99,79 @@ main {
     line-height: 40px;
 }
 
-.mini-container {
-    background-color: #fcf9f0;
-    padding: 5px;
-    margin: 20px;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
-    overflow: hidden;
-    clear: both;
-}
-
 .about{
-    gap: 15px;
-    margin: 10px;
-    background-color: #022050;
+    display: flex;
+    align-items: center;
+    background-color: #f02d3a;
     border-radius: 8px;
+    margin: 10px;
     overflow: hidden;
 }
 
 .owner {
-    float: left;
     padding: 10px;
-    padding-bottom: 0px;
-    width: 300px;
+    width: 250px;
     height: auto;
+    border-radius: 15px;
 }
 
 .about_text {
     color: #fffbeb;
     font-family: "Spline Sans Mono", sans-serif;
     padding: 10px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    background: #022050;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.reviews h2 {
+    color: #fffbeb;
+    font-size: 30px;
+}
+
+.review-items {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+}
+
+.review-items p {
+    color: #fffbeb;
+    font-family: "Spline Sans Mono", sans-serif;
+    font-size: 15px;
+}
+
+.review-items img {
+    border-radius: 8px;
+}
+
+.reviews_link {
+    text-decoration: none;
+    color: #fffbeb;
+    font-family: "Maiden Orange", sans-serif;
+    font-size: 25px;
+    background: #f02d3a;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+
+.reviews a:hover, a:focus {
+    background-color: #fffbeb;
+    color: #f02d3a;
+    /* maybe i'll add a transition for this bc lowkey it looks weird!!!!! */
 }
 
 footer {
@@ -139,7 +183,17 @@ footer {
     justify-content: center;
     font-family: "Maiden Orange", sans-serif;
     color: #fffbeb;
-    position: relative;
+}
+
+/* CSS for Events */
+
+.mini-container {
+    background-color: #fcf9f0;
+    gap: 15px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 .st_patrick {
@@ -148,6 +202,7 @@ footer {
     border-style: double;
     border-width: 10px;
     margin: 7px;
+    float: left;
 }
 
 .music {
@@ -156,6 +211,7 @@ footer {
     border-style: double;
     border-width: 10px;
     margin: 7px;
+    float: left;
 }
 
 .fireworks {
@@ -182,6 +238,7 @@ footer {
     border-style: double;
     border-width: 10px;
     margin: 7px;
+    float: left;
 }
 
 .bingo {
