@@ -192,35 +192,106 @@ main {
     }
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    background-color: #fffbeb;
+    padding: 15px;
+    gap: 15px;
+}
+
+.grid_heading {
+    font-family: "Maiden Orange", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.contact {
+    font-family: "Spline Sans Mono", sans-serif;
+    color: #022050;
+}
+
+.social_heading {
+    font-family: "Spline Sans Mono", sans-serif;
+    color: #022050;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.social_heading:hover, .social_heading:focus{
+    text-decoration: underline;
+    color: #f02d3a
+}
+
+.social_images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social_img2 {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    /* separate CSS class from social_images class to not change the size of the div, but directly change size of pictures */
+}
+
+.social_img2:hover, .social_img2:focus {
+    animation: grow 1s linear 
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 footer {
     background-color: #f02d3a;
     width: 100%;
     padding: 20px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    text-align: center;
     font-family: "Maiden Orange", sans-serif;
     color: #fffbeb;
 }
 
 /* CSS for Events */
 
+.event-container {
+    display: flex;
+    flex-direction: column;
+    background: #fffbeb;
+}
+
 .mini-container {
     background-color: #fcf9f0;
-    gap: 15px;
-    padding: 5px;
     margin: 10px;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.2);
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
     overflow: hidden;
 }
 
-.st_patrick {
+.side {
+    display: flex;
+}
+
+.bingo {
     width: 300px;
     height: 200px;
     border-style: double;
     border-width: 10px;
     margin: 7px;
-    float: left;
 }
 
 .music {
@@ -229,7 +300,11 @@ footer {
     border-style: double;
     border-width: 10px;
     margin: 7px;
-    float: left;
+}
+
+.side2 {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .fireworks {
@@ -237,7 +312,14 @@ footer {
     height: 200px;
     border-style: double;
     border-width: 10px;
-    float: right;
+    margin: 7px;
+}
+
+.st_patrick {
+    width: 300px;
+    height: 200px;
+    border-style: double;
+    border-width: 10px;
     margin: 7px;
 }
 
@@ -247,7 +329,6 @@ footer {
     border-style: double;
     border-width: 10px;
     margin: 7px;
-    float: right;
 }
 
 .toys {
@@ -256,56 +337,9 @@ footer {
     border-style: double;
     border-width: 10px;
     margin: 7px;
-    float: left;
-}
-
-.bingo {
-    width: 300px;
-    height: 200px;
-    border-style: double;
-    border-width: 10px;
-    margin: 7px;
-    float: right;
 }
 
 .text-box {
-    gap: 15px;
-    margin: 10px;
-    overflow: hidden;
-    display: flex;
-}
-
-.bingo-text {
-    color: black;
-    font-family: "Spline Sans Mono", sans-serif;
-    padding: 10px;
-}
-
-.music-text {
-    color: black;
-    font-family: "Spline Sans Mono", sans-serif;
-    padding: 10px;
-}
-
-.nye-text {
-    color: black;
-    font-family: "Spline Sans Mono", sans-serif;
-    padding: 10px;
-}
-
-.shamrock {
-    color: black;
-    font-family: "Spline Sans Mono", sans-serif;
-    padding: 10px;
-}
-
-.german-holiday {
-    color: black;
-    font-family: "Spline Sans Mono", sans-serif;
-    padding: 10px;
-}
-
-.kid-toys {
     color: black;
     font-family: "Spline Sans Mono", sans-serif;
     padding: 10px;
