@@ -31,6 +31,13 @@ h2{
     font-size: 25px;
 }
 
+h3{
+    color: #022050;
+    font-family: "Spline Sans Mono", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;
