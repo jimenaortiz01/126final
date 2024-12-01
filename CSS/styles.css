@@ -115,6 +115,11 @@ main {
     overflow: hidden;
 }
 
+.about h2 {
+    color: #fffbeb;
+    font-size: 30px;
+}
+
 .owner {
     padding: 10px;
     width: 250px;
@@ -347,12 +352,16 @@ footer {
 }
 
 .text-box {
-    color: black;
+    color: #022050;
     font-family: "Spline Sans Mono", sans-serif;
     padding: 10px;
 }
 
 /* CSS for Menu */
+
+.container2 {
+    margin: 10px;
+}
 
 .sauce-container {
     background-color: #f02d3a;
