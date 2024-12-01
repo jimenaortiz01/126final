@@ -365,3 +365,14 @@ footer {
 .sauce-container h3 {
     color: #fffbeb;
 }
+
+.decorations {
+    width: 400px;
+    height: auto;
+}
+
+.menu-divider {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
