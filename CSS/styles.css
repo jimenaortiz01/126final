@@ -376,3 +376,7 @@ footer {
     align-items: center;
     flex-direction: column;
 }
+
+.bolded-text b {
+    color: #022050;
+}
