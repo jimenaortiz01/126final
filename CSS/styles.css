@@ -351,3 +351,11 @@ footer {
     font-family: "Spline Sans Mono", sans-serif;
     padding: 10px;
 }
+
+.sauce-container {
+    background-color: #f02d3a;
+    padding: 5px;
+    margin: 10px;
+    color: #fffbeb;
+    border-radius: 12px;
+}
