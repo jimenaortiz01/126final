@@ -360,18 +360,33 @@ footer {
 /* CSS for Menu */
 
 .container2 {
-    margin: 10px;
+    margin: 13px;
+    line-height: 25px;
+}
+
+.container2 p {
+    font-family: "Spline Sans Mono", sans-serif;
+    color: #022050
+}
+
+.container2 h2 {
+    text-decoration: underline;
 }
 
 .sauce-container {
     background-color: #f02d3a;
-    padding: 5px;
+    padding: 8px;
     margin: 10px;
-    color: #fffbeb;
     border-radius: 12px;
 }
 
 .sauce-container h3 {
+    color: #fffbeb;
+    font-family: "Spline Sans Mono", sans-serif;
+    padding: 3px;
+}
+
+.sauce-container p {
     color: #fffbeb;
 }
 
@@ -388,4 +403,23 @@ footer {
 
 .bolded-text b {
     color: #022050;
+}
+
+.merch {
+    background: #022050;
+    border-radius: 8px;
+    margin: 13px;
+    padding: 10px;
+}
+
+.merch h2 {
+    color: #fffbeb;
+    padding-top: 8px;
+    text-decoration: underline;
+}
+
+.merch p {
+    font-family: "Spline Sans Mono", sans-serif;
+    color: #fffbeb;
+    line-height: 25px;
 }
