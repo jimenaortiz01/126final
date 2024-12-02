@@ -440,16 +440,20 @@ footer {
     .event-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 10px;
-        margin: 15px;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 auto;
+        grid-gap: 20px;
+        padding: 10px;
     }
 
     .mini-container {
         display: flex;
         flex-direction: column;
-        width: 100%;
         align-items: center;
+    }
+
+    .mini-container h2 {
+        text-align: center;
     }
 
     .side, .side2 {
@@ -460,7 +464,6 @@ footer {
     }
 
     .side img, .side2 img {
-        width: 100%;
-        padding: 20px;
+        width: 90%;
     }
 }
