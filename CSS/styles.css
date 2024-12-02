@@ -423,3 +423,44 @@ footer {
     color: #fffbeb;
     line-height: 25px;
 }
+
+/* Media Query */
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 10px;
+    }
+
+    .navbar a {
+        font-size: 23px;
+    }
+
+    .event-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 15px;
+    }
+
+    .mini-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .side, .side2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .side img, .side2 img {
+        width: 100%;
+        padding: 20px;
+    }
+}
