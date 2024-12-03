@@ -424,6 +424,10 @@ footer {
     line-height: 25px;
 }
 
+#sides {
+    text-align: center;
+}
+
 /* Media Query */
 
 @media screen and (min-width: 768px) {
@@ -444,6 +448,7 @@ footer {
         margin: 0 auto;
         grid-gap: 20px;
         padding: 10px;
+        /* places events in a 3x2 grid in order to have them side by side and not stacked */
     }
 
     .mini-container {
@@ -466,4 +471,15 @@ footer {
     .side img, .side2 img {
         width: 90%;
     }
+
+    .desktop {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about, .reviews{
+        flex: 1;
+        max-width: 48%;
+    }
+
 }
