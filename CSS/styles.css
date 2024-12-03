@@ -246,7 +246,14 @@ main {
     display: flex;
     gap: 10px;
     justify-content: center;
+}
+
+.social_images2 {
+    display: flex;
+    gap: 10px;
     margin-bottom: 30px;
+    justify-content: center;
+    /* created duplicate social_images class in order to apply margin between last row of pictures and footer and not under all picture rows */
 }
 
 .social_img2 {
@@ -545,7 +552,6 @@ footer {
     .reviews {
         flex: 1;
     }
-
 
     .reviews {
         display: flex;
