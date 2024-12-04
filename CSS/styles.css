@@ -452,6 +452,22 @@ footer {
     text-align: center;
 }
 
+.t-shirts {
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_food {
+    width: 300px;
+    height: auto;
+    display: flex;
+    padding: 5px;
+}
+
 /* Media Query */
 
 @media screen and (min-width: 768px) {
