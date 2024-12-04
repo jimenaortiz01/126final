@@ -414,15 +414,26 @@ footer {
     color: #fffbeb;
 }
 
+.food_images {
+    display: flex;
+    justify-content: space-around;
+}
+
 .decorations {
     width: 400px;
     height: auto;
 }
 
+.bar {
+    width: 400px;
+    height: 450px;
+}
+
 .menu-divider {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .bolded-text b {
