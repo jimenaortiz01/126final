@@ -416,7 +416,8 @@ footer {
 
 .food_images {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .decorations {
@@ -426,7 +427,7 @@ footer {
 
 .bar {
     width: 30%;
-    height: 450px;
+    height: auto;
     display: none;
 }
 
@@ -451,7 +452,7 @@ footer {
 .side_by_side {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .merch h2 {
