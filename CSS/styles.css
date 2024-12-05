@@ -187,7 +187,6 @@ main {
 .reviews a:hover, a:focus {
     background-color: #fffbeb;
     color: #f02d3a;
-    /* maybe i'll add a transition for this bc lowkey it looks weird!!!!! (I added a pulse to it, but take it out if you hate it LOLL)*/
 }
 
 .reviews_link:hover {
@@ -474,6 +473,7 @@ footer {
     font-family: "Spline Sans Mono", sans-serif;
     color: #fffbeb;
     line-height: 25px;
+    padding-left: 15px;
 }
 
 #sides {
