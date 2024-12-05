@@ -416,24 +416,25 @@ footer {
 
 .food_images {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .decorations {
-    width: 400px;
+    width: 60%;
     height: auto;
 }
 
 .bar {
-    width: 400px;
+    width: 30%;
     height: 450px;
+    display: none;
 }
 
 .menu-divider {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .bolded-text b {
@@ -445,6 +446,12 @@ footer {
     border-radius: 8px;
     margin: 13px;
     padding: 10px;
+}
+
+.side_by_side {
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 .merch h2 {
@@ -617,6 +624,21 @@ footer {
         font-size: 23px;
     }
 
+    .menu-divider {
+        justify-content: space-between;
+    }
+
+    .bar {
+        display: flex;
+    }
+
+    .decorations {
+        width: 30%;
+    }
+
+    .merch {
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 1140px) { 
