@@ -416,19 +416,22 @@ footer {
 
 .food_images {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .decorations {
     width: 60%;
     height: auto;
+    border-radius: 10px;
 }
 
 .bar {
     width: 30%;
     height: auto;
     display: none;
+    border-radius: 10px;
 }
 
 .menu-divider {
@@ -452,6 +455,12 @@ footer {
 .side_by_side {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.menu_home {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -481,10 +490,12 @@ footer {
 }
 
 .menu_food {
-    width: 300px;
+    width: 50%;
     height: auto;
     display: flex;
     padding: 5px;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 /* Media Query */
@@ -639,6 +650,16 @@ footer {
 
     .merch {
         width: 40%;
+    }
+
+    .menu_food {
+        width: 30%;
+    }
+
+    .grid_desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
     }
 }
 
